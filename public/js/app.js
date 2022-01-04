@@ -13,7 +13,7 @@ weatherForm.addEventListener('submit', (e) => {
   e.preventDefault(); // needed to prevent the default
   // browser behaviour of refreshing, and telling that we are gonna do everything
   
-  msgOne.textContent = 'Loading...'
+  msgOne.textContent = 'Loading Weather Stats...'
   msgTwo.textContent = ''
 
   const location = search.value;
